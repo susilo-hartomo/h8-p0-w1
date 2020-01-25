@@ -1,0 +1,504 @@
+/* header */
+
+.head-nav {
+    display: inline-flex;
+    height: 60px;
+    margin-left: 5%;
+    position: fixed;
+    top: 0;
+    margin-top: 20px;
+   
+}
+
+
+.pallete img {
+    width: 25%;
+    position: relative;
+    z-index: -3;
+}
+
+.logo-type a {
+    font-family: "poppins";
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.nav {
+    font-family: "roboto";
+    font-size: 16px;
+    margin-left: 360px;
+    margin-top: 10px;
+    display: inline-flex;
+}
+
+.nav a {
+    color: #22326B;
+    margin-right: 20px;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.nav-link a {
+    margin-left: 160px;
+    color: #FF8800;
+}
+
+
+/* akhir header */
+
+body { 
+    margin: 0;
+    background-color: #F5F5F5;
+}
+
+
+section {
+    margin-top: -170px;
+}
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero {
+    background-image: url("asset/hero.png");
+    height: 600px;
+    width: 1540;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: contain;
+    
+}
+
+.content {
+    padding-top: 70px;
+    padding-left: 60px;
+}
+
+.content h1 {
+    font-family: "roboto";
+    font-size: 45px;
+    color: #22326B;
+    line-height: 1.2;
+}
+
+.content li {
+    font-family: "roboto";
+    font-size: 17px;
+    color: #354EA2;
+    opacity: 0.7;
+}
+
+.action-btn {
+    height: 80px;
+    display: inline-flex;
+    margin-top: 20px;
+
+}
+
+.action-btn img{
+    margin: 0;
+    height: 80px;
+}
+
+.back-btn {
+    height: 50px;
+    width: 240px;
+    background-color: #354EA2;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.back-btn div{
+    font-family: 'roboto';
+    font-weight: 200;
+    font-size: 17px;
+    color: white;
+    margin: auto;
+    margin-top: 5%;
+}
+
+/* section-1 */
+
+.section-1 {
+    margin-bottom: 40px;
+    display: inline-flex;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+    float: right;
+    justify-content: space-between;
+}
+
+.content-1{
+    width: 450px;
+}
+
+.content-1 h3{
+    font-family: 'roboto';
+    font-size: 32px;
+    font-weight: 500;
+    color: #22326B;
+}
+
+.content-1 p {
+    font-family: 'roboto';
+    font-size: 16px;
+    color: #22326B;
+    opacity: 0.8;
+    line-height: 1.5;
+}
+
+ul {
+    margin-top: 40px;
+    list-style: none;
+   line-height: 1.5;
+}
+
+ul li::before{
+    content: "\2022";
+    color: #FF8800;
+    margin-left: -1em;
+    margin-right: 1em;
+}
+
+.content-1 li {
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #354EA2;
+}
+
+.img-sec1 img {
+    background-size: contain;
+    height: 450px;
+    width: 450px;
+    float: right;
+    margin-right: 60px;
+}
+
+/* akhir section-1 */
+
+
+/* section-2 */
+
+.our-service{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'roboto';
+}
+
+.our-service h1 {
+    font-family: 'roboto';
+    color: #22326B;
+    font-size: 42px;
+    text-align: center;
+}
+
+.our-service p{
+    color: #354EA2;
+    font-family: 'roboto';
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+.macam-service {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-left: 110px;
+    margin-bottom: 30px;
+}
+
+.box-service {
+    width: 180PX;
+    height: 180PX;
+    background-color: white;
+    border-radius: 10PX;
+    color: #354EA2;
+    text-align: center;
+    margin-right: 50px;
+    font-family: 'roboto';
+    font-weight: 600;
+}
+
+.box-service img{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.action-btn {
+    display: inline-flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.btn1 {
+    height: 50px;
+    width: 200px;
+    background-color: #FF8800;
+    height: 50px;
+    width: 240px;
+    border-radius: 8px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.btn2 {
+    height: 50px;
+    width: 200px;
+    background-color: #354EA2;
+    height: 50px;
+    width: 240px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.action-btn a {
+    color: #354EA2;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* akhir section-2 */
+
+/* section3 */
+
+.our-work {
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 80px;
+    display: inline-flex;
+}
+
+.our-work img {
+    width: 480px;
+    height: 460px;
+    background-size: contain;
+    margin-left: 25%;
+}
+
+.content-3 {
+    font-family: 'roboto';
+}
+
+.content-3 h1 {
+    font-size: 42px;
+    color: #22326B;
+}
+
+.content-3 p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #354EA2;
+    width: 400px;
+    opacity: 0.7;
+}
+
+.content-3 h5{
+    color: #FF8800;
+    opacity: 0.7;
+    float: right;
+    bottom: 0px;
+    font-weight: 500;
+    font-size: 17px;
+    font-style: italic;
+    margin-top: 100px;
+}
+/* akhir section3 */
+
+/* section 4 */
+
+.section-4 {
+    background-color: white;
+    font-family: 'roboto';
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 120px;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.content-4 {
+    display: grid;
+    grid-template-columns: 10% 30% 20% 30% 10%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.content-4 h2 {
+    color: #22326B;
+    font-weight: 700;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-4 p {
+    color: #354EA2;
+    width: 80%;
+    opacity: 0.7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.artikle1 {
+    text-align: center;
+}
+
+
+.section-4 .bor {
+    margin: auto;
+    color: #FF8800;
+}
+
+.btn-content4 {
+    display: inline-flex;
+    margin-bottom: 80px;
+}
+
+.grid-5{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 20% 25% 10% 25% 20%;
+    margin-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.grid-5 div {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.grid-5 .color1 {
+    color: #FF8800;
+    background-color: hsla(32, 100%, 50% , 0.3);
+}
+
+.grid-5 .color2 {
+    color: #22326B;
+    background-color: hsla(226, 51%, 42%, 0.3);
+}
+
+/* akhir section 4 */
+
+
+/* footer */
+
+.footer {
+    background-color: #354EA2;
+    margin-top: 20px;
+    font-family: 'roboto';
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    margin-bottom: -20px;
+    bottom: 0px;
+    margin-top: 100px;
+}
+
+.foot {
+    width: 90%;
+    display: grid;
+    margin-left: auto;
+    margin-top: auto;
+    grid-template-columns: 40% 20% 20% 20%;
+}
+
+.ic-sosmed {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-flex;
+}
+
+.ic-sosmed img {
+    width: 14px;
+    height: 14px;
+    margin-right: 20px;
+}
+
+.nama h4 {
+    color: #FEB70F;
+    font-weight: 800;
+    font-size: 18px;
+    font-family: "poppins";
+}
+
+.nama p {
+    font-size: 14px;
+    width: 70%;
+    color: white;
+    opacity: 0.7;
+    line-height: 1.6;
+}
+
+.home h4, .company h4, .contact h4 {
+    color: white;
+    font-family: 'poppins';
+    font-weight: 600;
+}
+
+.foot a {
+    color: white;
+    opacity: 0.7;
+    margin: auto;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.bwh-footer {
+    padding-top: 10px;
+    display: inline-flex;
+    width: 100%;
+    margin-top: 10px;
+    border-top: 1px solid white;
+}
+
+.bwh-footer p {
+    margin-left: 45%;
+    margin-right: 40px;
+    color: white;
+    font-size: 14px;
+}
+
+.bwh-footer a {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    font-size: 12px;
+}
+
+.pellate-bwh img{
+    width: 15%;
+    margin-top: -7.7%;
+}
+
+/* akhir footer */
